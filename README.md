@@ -2,7 +2,7 @@
 
 A rust lib for error JSON serialization
 
-## Installation
+## Installation
 
 This crate works  works with Cargo:
     
