@@ -1,0 +1,21 @@
+[package]
+name = "cdumay-http-errors"
+version = "0.1.0"
+authors = ["Cédric Dumay <cedric.dumay@gmail.com>"]
+description = "A JSON serialization for errors"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/cdumay/cdumay-http-errors-rs"
+keywords = ["json", "serde", "serialization", "hyper"]
+categories = ["encoding"]
+readme = "README.md"
+include = ["Cargo.toml", "src/**/*.rs", "README.md", "LICENSE"]
+
+[dependencies]
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+hyper = { version = "0.11", optional = true }
+
+[features]
+default = ["hyper"]

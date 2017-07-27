@@ -1,2 +1,2 @@
-# cdumay-http-errors-rs
-A JSON serialization for errors
+# cdumay-http-errors
+A rust lib for error JSON serialization
