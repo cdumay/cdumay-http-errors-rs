@@ -1,8 +1,10 @@
 # cdumay-http-errors
+
 A rust lib for error JSON serialization
 
 ## Installation
-usefulrate works with Cargo:
+
+This crate works  works with Cargo:
     
 ```toml
 [dependencies]
@@ -10,6 +12,7 @@ cdumay-http-errors = "0.1"
 ```
 
 ## Usage
+
 Link the library in _main.rs_:
 
 ```rust
