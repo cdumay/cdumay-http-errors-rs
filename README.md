@@ -17,7 +17,7 @@ Link the library in _main.rs_:
 extern crate cdumay_http_errors;
 ```
 
-Example of error:
+Example of use:
 
 ```rust
 use cdumay_http_errors::HttpCode;
