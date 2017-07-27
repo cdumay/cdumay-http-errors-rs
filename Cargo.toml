@@ -8,7 +8,6 @@ readme = "README.md"
 repository = "https://github.com/cdumay/cdumay-http-errors-rs"
 keywords = ["json", "serde", "serialization", "hyper"]
 categories = ["encoding"]
-readme = "README.md"
 include = ["Cargo.toml", "src/**/*.rs", "README.md", "LICENSE"]
 
 [dependencies]
